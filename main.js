@@ -27,5 +27,8 @@ var app = new Vue({
     dotSelect: function (i) {
       this.i = i;
     }
+  },
+  created: function () {
+    setInterval(this.next, 3000)
   }
 })
