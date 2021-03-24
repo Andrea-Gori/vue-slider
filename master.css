@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel {
+  width: 50vh;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls {
+  margin: 0 30px;
+  font-size: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav i {
+  margin: 10px 10px;
+  color: #778899;
+}
+
+.active {
+  color: #0000ff;
+}
+
+img {
+  height: 500px;
+}
